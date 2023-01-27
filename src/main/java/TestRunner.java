@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/java/Features",
         tags = "@Regression"
-        ,glue={"StepDefinitions", "MyHooks"},
+        ,glue={"StepDefinitions", "Hooks"},
         plugin = {"pretty", "html:target/cucumber-reports/report.html"},
         dryRun = false,
         monochrome = true

@@ -1,4 +1,4 @@
-package MyHooks;
+package Hooks;
 
 
 import io.cucumber.java.After;
